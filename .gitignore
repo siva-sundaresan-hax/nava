@@ -1,0 +1,21 @@
+# Godot 4
+.godot/
+*.import
+export.cfg
+export_presets.cfg
+builds/
+android/
+
+# Python (simulator)
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Snapshot sync metadata
+*.muse-github-snapshot-sync.json

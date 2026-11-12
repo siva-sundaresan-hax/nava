@@ -1,0 +1,22 @@
+; Engine configuration file for Nava (Godot 4.x)
+; Scaffold created 2026-11-12 from the plan in ../../game-plan-ios-android.md.
+; Open this project in Godot 4 on Siva's machine to begin Phase 1.
+
+config_version=5
+
+[application]
+
+config/name="Nava — Cards of the Nine Grahas"
+config/description="A strategy card game set in the world of Jyotisham. Fate deals; you play the chart."
+config/features=PackedStringArray("4.3", "Mobile")
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/stretch/mode="canvas_items"
+window/handheld/orientation="portrait"
+
+[rendering]
+
+renderer/rendering_method="mobile"

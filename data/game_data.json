@@ -1,0 +1,324 @@
+{
+ "game": "Nava \u2014 Cards of the Nine Grahas",
+ "grahas": [
+  {
+   "debilitated": "tula",
+   "enemies": [
+    "shukra",
+    "shani"
+   ],
+   "exalted": "mesha",
+   "friends": [
+    "chandra",
+    "kuja",
+    "guru"
+   ],
+   "glyph": "\u2609",
+   "id": "surya",
+   "name": "Surya",
+   "own": [
+    "simha"
+   ]
+  },
+  {
+   "debilitated": "vrischika",
+   "enemies": [],
+   "exalted": "rishaba",
+   "friends": [
+    "surya",
+    "budha"
+   ],
+   "glyph": "\u263d",
+   "id": "chandra",
+   "name": "Chandra",
+   "own": [
+    "karka"
+   ]
+  },
+  {
+   "debilitated": "karka",
+   "enemies": [
+    "budha"
+   ],
+   "exalted": "makara",
+   "friends": [
+    "surya",
+    "chandra",
+    "guru"
+   ],
+   "glyph": "\u2642",
+   "id": "kuja",
+   "name": "Kuja",
+   "own": [
+    "mesha",
+    "vrischika"
+   ]
+  },
+  {
+   "debilitated": "meena",
+   "enemies": [
+    "chandra"
+   ],
+   "exalted": "kanya",
+   "friends": [
+    "surya",
+    "shukra"
+   ],
+   "glyph": "\u263f",
+   "id": "budha",
+   "name": "Budha",
+   "own": [
+    "mithuna",
+    "kanya"
+   ]
+  },
+  {
+   "debilitated": "makara",
+   "enemies": [
+    "budha",
+    "shukra"
+   ],
+   "exalted": "karka",
+   "friends": [
+    "surya",
+    "chandra",
+    "kuja"
+   ],
+   "glyph": "\u2643",
+   "id": "guru",
+   "name": "Guru",
+   "own": [
+    "dhanusu",
+    "meena"
+   ]
+  },
+  {
+   "debilitated": "kanya",
+   "enemies": [
+    "surya",
+    "chandra"
+   ],
+   "exalted": "meena",
+   "friends": [
+    "budha",
+    "shani"
+   ],
+   "glyph": "\u2640",
+   "id": "shukra",
+   "name": "Shukra",
+   "own": [
+    "rishaba",
+    "tula"
+   ]
+  },
+  {
+   "debilitated": "mesha",
+   "enemies": [
+    "surya",
+    "chandra",
+    "kuja"
+   ],
+   "exalted": "tula",
+   "friends": [
+    "budha",
+    "shukra"
+   ],
+   "glyph": "\u2644",
+   "id": "shani",
+   "name": "Shani",
+   "own": [
+    "makara",
+    "kumbha"
+   ]
+  },
+  {
+   "debilitated": "dhanusu",
+   "enemies": [],
+   "exalted": "mithuna",
+   "friends": [],
+   "glyph": "\u260a",
+   "id": "rahu",
+   "name": "Rahu",
+   "own": [
+    "kumbha"
+   ],
+   "special": "amplify"
+  },
+  {
+   "debilitated": "mithuna",
+   "enemies": [],
+   "exalted": "dhanusu",
+   "friends": [],
+   "glyph": "\u260b",
+   "id": "ketu",
+   "name": "Ketu",
+   "own": [
+    "vrischika"
+   ],
+   "special": "sever"
+  }
+ ],
+ "nakshatra_specials_prototype": [
+  {
+   "effect": "rescue_debilitated",
+   "id": "ashwini",
+   "name": "Ashwini",
+   "text": "A debilitated graha scores +2 instead of -6."
+  },
+  {
+   "effect": "double_dignity",
+   "id": "rohini",
+   "name": "Rohini",
+   "text": "One placed graha's dignity points double."
+  },
+  {
+   "effect": "free_move",
+   "id": "pushya",
+   "name": "Pushya",
+   "text": "Move any graha one extra field free."
+  },
+  {
+   "effect": "swap_fields",
+   "id": "hasta",
+   "name": "Hasta",
+   "text": "Swap two placed grahas' fields."
+  },
+  {
+   "effect": "redraw",
+   "id": "swati",
+   "name": "Swati",
+   "text": "Return one unflipped graha and draw its replacement from the undealt grahas."
+  },
+  {
+   "effect": "mediate_link",
+   "id": "anuradha",
+   "name": "Anuradha",
+   "text": "One enemy link costs 0 instead of -4."
+  },
+  {
+   "effect": "uproot",
+   "id": "mula",
+   "name": "Mula",
+   "text": "Remove one placed graha; it scores 0 and breaks all its links."
+  },
+  {
+   "effect": "veil_link",
+   "id": "shatabhisha",
+   "name": "Shatabhisha",
+   "text": "One enemy link scores as neutral."
+  },
+  {
+   "effect": "floor_graha",
+   "id": "revati",
+   "name": "Revati",
+   "text": "Your lowest-scoring graha counts as +2."
+  }
+ ],
+ "note": "Content-as-data layer for the Godot build. All balance lives here, not in code. Mirrors rules-v0.1.md.",
+ "rashis": [
+  {
+   "element": "agni",
+   "id": "mesha",
+   "lord": "kuja",
+   "name": "Mesha"
+  },
+  {
+   "element": "prithvi",
+   "id": "rishaba",
+   "lord": "shukra",
+   "name": "Rishaba"
+  },
+  {
+   "element": "vayu",
+   "id": "mithuna",
+   "lord": "budha",
+   "name": "Mithuna"
+  },
+  {
+   "element": "jala",
+   "id": "karka",
+   "lord": "chandra",
+   "name": "Karka"
+  },
+  {
+   "element": "agni",
+   "id": "simha",
+   "lord": "surya",
+   "name": "Simha"
+  },
+  {
+   "element": "prithvi",
+   "id": "kanya",
+   "lord": "budha",
+   "name": "Kanya"
+  },
+  {
+   "element": "vayu",
+   "id": "tula",
+   "lord": "shukra",
+   "name": "Tula"
+  },
+  {
+   "element": "jala",
+   "id": "vrischika",
+   "lord": "kuja",
+   "name": "Vrischika"
+  },
+  {
+   "element": "agni",
+   "id": "dhanusu",
+   "lord": "guru",
+   "name": "Dhanusu"
+  },
+  {
+   "element": "prithvi",
+   "id": "makara",
+   "lord": "shani",
+   "name": "Makara"
+  },
+  {
+   "element": "vayu",
+   "id": "kumbha",
+   "lord": "shani",
+   "name": "Kumbha"
+  },
+  {
+   "element": "jala",
+   "id": "meena",
+   "lord": "guru",
+   "name": "Meena"
+  }
+ ],
+ "scoring": {
+  "bands": {
+   "difficult": 12,
+   "harmonious": 38,
+   "working": 25,
+   "yoga": 50
+  },
+  "dignity": {
+   "debilitated": -6,
+   "enemy_sign": 0,
+   "exalted": 10,
+   "friend_sign": 4,
+   "neutral_sign": 2,
+   "own": 6
+  },
+  "links": {
+   "enemy_pair": -4,
+   "friend_pair": 4,
+   "guru_blessing_per_pair": 2
+  },
+  "move_cost": {
+   "first_step": 0,
+   "max_range_fields": 2,
+   "per_extra_step": 1
+  },
+  "patterns": {
+   "element_triad": 9,
+   "full_house": 5,
+   "kendra_cross_3plus": 6
+  }
+ },
+ "version": "0.1.1"
+}
