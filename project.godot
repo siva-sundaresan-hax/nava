@@ -6,6 +6,8 @@ config_version=5
 
 [application]
 
+run/main_scene="res://scenes/main.tscn"
+
 config/name="Nava — Cards of the Nine Grahas"
 config/description="A strategy card game set in the world of Jyotisham. Fate deals; you play the chart."
 config/features=PackedStringArray("4.3", "Mobile")
