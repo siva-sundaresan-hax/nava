@@ -1,0 +1,6 @@
+Nava Phase 1 — thanks for testing.
+1) Play one Free Play game. Play another only if you want to; we'll ask whether you did.
+2) Play today's Daily Deal and the Contest Deal, and note your scores.
+3) Watch for: obvious moves, scores that don't match how the chart looks, special cards you never use, how the Reading makes you react, and how long a game takes.
+Crashes: take a screenshot and send it through TestFlight. Please fill in the feedback form within 7 days.
+Placeholder art. Entertainment only — no predictions.
